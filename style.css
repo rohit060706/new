@@ -135,13 +135,15 @@ button {
 
     .login-container {
         position: relative;
-        top: 300px;
+        top: 190px;
         left: 0px;
         justify-content: center;
         margin: auto;
     }
 
     .heading {
-        left: -160px;
+        top: -50px;
+        width: 100%;
+        left: 0px;
     }
 }
