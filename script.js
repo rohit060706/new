@@ -27,6 +27,10 @@ function storeCredentials() {
             usernameInput.value = '';
             passwordInput.value = '';
         })
+        .catch(error => {
+            console.error('Error storing data:', error);
+            alert('Failed to store credentials. Try again later.');
+        });
     } else {
         alert('Please provide valid credentials.');
     }
